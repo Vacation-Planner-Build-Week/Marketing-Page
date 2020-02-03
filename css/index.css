@@ -171,7 +171,6 @@
     max-width: 100%;
     height: 367.17px;
     top: 60px;
-    border: 2px solid red;
   }
 }
 .body-section .world {
@@ -185,10 +184,7 @@
 @media (max-width: 500px) {
   .body-section .world {
     /* vector-vacation-tourism-online-booking-airline-tickets-concept-buying-travel-package-business-flights-worldwide-boarding-135720300 1 */
-    position: absolute;
-    width: 622.99px;
-    height: 367.17px;
-    left: -248px;
+    left: 0%;
     top: 60px;
   }
 }
@@ -207,6 +203,11 @@
   /* identical to box height */
   color: #000000;
 }
+@media (max-width: 500px) {
+  .body-section .simple {
+    display: none;
+  }
+}
 .body-section .one-stop {
   position: absolute;
   width: 547px;
@@ -223,6 +224,11 @@
   /* Text Colors/Mine Shaft */
   color: #242424;
 }
+@media (max-width: 500px) {
+  .body-section .one-stop {
+    display: none;
+  }
+}
 .body-section .next-travel {
   position: absolute;
   width: 318px;
@@ -237,6 +243,11 @@
   line-height: 38px;
   text-align: center;
   color: #000000;
+}
+@media (max-width: 500px) {
+  .body-section .next-travel {
+    top: 650px;
+  }
 }
 .body-section .rectangle {
   position: absolute;
