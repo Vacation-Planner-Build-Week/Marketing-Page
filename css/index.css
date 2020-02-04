@@ -278,6 +278,11 @@ body .rectangle .sign-up {
   text-align: center;
   background-color: #46B1C9;
 }
+@media (max-width: 500px) {
+  .about-planner {
+    flex-direction: column;
+  }
+}
 .meet-the-team {
   display: flex;
   flex-direction: column;
@@ -302,6 +307,11 @@ body .rectangle .sign-up {
   text-align: center;
   line-height: 0;
 }
+@media (max-width: 500px) {
+  .backend-dev {
+    line-height: 1;
+  }
+}
 .react2-dev {
   display: flex;
   flex-direction: column;
@@ -311,6 +321,11 @@ body .rectangle .sign-up {
   line-height: 0;
   color: white;
 }
+@media (max-width: 500px) {
+  .react2-dev {
+    line-height: 1;
+  }
+}
 .react2devs {
   display: flex;
   justify-content: space-between;
@@ -318,6 +333,11 @@ body .rectangle .sign-up {
   align-items: center;
   text-align: center;
   line-height: 0;
+}
+@media (max-width: 500px) {
+  .react2devs {
+    line-height: 1;
+  }
 }
 .frontend-dev {
   display: flex;
@@ -328,6 +348,11 @@ body .rectangle .sign-up {
   line-height: 0;
   color: white;
 }
+@media (max-width: 500px) {
+  .frontend-dev {
+    line-height: 1;
+  }
+}
 .react1devs {
   display: flex;
   justify-content: space-between;
@@ -335,6 +360,11 @@ body .rectangle .sign-up {
   align-items: center;
   text-align: center;
   line-height: 0;
+}
+@media (max-width: 500px) {
+  .react1devs {
+    line-height: 1;
+  }
 }
 .marketing-frontend {
   display: flex;
@@ -345,6 +375,11 @@ body .rectangle .sign-up {
   line-height: 0;
   color: white;
 }
+@media (max-width: 500px) {
+  .marketing-frontend {
+    line-height: 1;
+  }
+}
 .webui-devs {
   display: flex;
   justify-content: space-between;
@@ -352,6 +387,11 @@ body .rectangle .sign-up {
   align-items: center;
   text-align: center;
   line-height: 0;
+}
+@media (max-width: 500px) {
+  .webui-devs {
+    line-height: 1;
+  }
 }
 .ux {
   display: flex;
@@ -361,6 +401,11 @@ body .rectangle .sign-up {
   text-align: center;
   line-height: 0;
 }
+@media (max-width: 500px) {
+  .ux {
+    line-height: 1;
+  }
+}
 .teamleadtitle,
 .backendtitle,
 .uxtitle {
@@ -369,4 +414,21 @@ body .rectangle .sign-up {
 }
 .secondname {
   color: grey;
+}
+.mission {
+  font-size: 1.6rem;
+}
+.mission-statement {
+  background-color: #46B1c9;
+}
+.mission-img {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .mission-img {
+    display: none;
+  }
+}
+.mission-title {
+  color: #242424;
 }

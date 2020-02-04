@@ -214,6 +214,9 @@ body {
     align-items: center;
     text-align: center;
     background-color: #46B1C9;
+    @media @mobile{
+        flex-direction: column;
+    }
   }
   .meet-the-team{
     display: flex;
@@ -238,6 +241,9 @@ body {
     align-items: center;
     text-align: center;
     line-height: 0;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .react2-dev{
     display: flex;
@@ -247,6 +253,9 @@ body {
     text-align: center;
     line-height: 0;
     color: white;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .react2devs{
     display: flex;
@@ -255,6 +264,9 @@ body {
     align-items: center;
     text-align: center;
     line-height: 0;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .frontend-dev{
     display: flex;
@@ -264,6 +276,9 @@ body {
     text-align: center;
     line-height: 0;
     color: white;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .react1devs{
     display: flex;
@@ -272,6 +287,9 @@ body {
     align-items: center;
     text-align: center;
     line-height: 0;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .marketing-frontend{
     display: flex;
@@ -281,6 +299,9 @@ body {
     text-align: center;
     line-height: 0;
     color: white;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .webui-devs{
     display: flex;
@@ -289,6 +310,9 @@ body {
     align-items: center;
     text-align: center;
     line-height: 0;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .ux{
     display: flex;
@@ -297,6 +321,9 @@ body {
     align-items: center;
     text-align: center;
     line-height: 0;
+    @media @mobile{
+        line-height: 1;
+    }
   }
   .teamleadtitle, .backendtitle, .uxtitle{
     padding-bottom: 10%;
@@ -304,4 +331,21 @@ body {
   }
   .secondname{
     color: grey;
-  }//closes about section
+  }
+  .mission{
+   font-size: 1.6rem; 
+}//closes about section
+
+//mission statement section
+.mission-statement{
+    background-color: #46B1c9;
+}
+.mission-img{
+    border-radius: 50%;
+    @media @mobile {
+        display: none;
+    }
+}
+.mission-title{
+    color: @main-font-color;
+}//closes mission statement
