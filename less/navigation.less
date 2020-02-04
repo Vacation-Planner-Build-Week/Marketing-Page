@@ -4,6 +4,14 @@
     width: 100%;
     padding: 2%;
 
+    @media @mobile {
+        display: none;
+    }
+
+    .nav-bar-right {
+        margin-left: 10%;
+    }
+
     .top {
         align-items: center;
         width: 100%;
@@ -22,9 +30,22 @@
 
     }
 
+    .two {
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        color: #D74E09;
+        text-decoration: none;
+        padding: 20px;
+
+    }
+
     .flip {
         flex-direction: row-reverse;
         display: flex;
+        padding-right: 150px;
     }
 
     nav {
@@ -55,7 +76,7 @@
         border-radius: 6px;
         display: flex;
         align-items: center;
-
+        margin-right: 150px;
 
 
         .combined {

@@ -3,17 +3,24 @@
     flex-direction: row-reverse;
     width: 90%;
 
-    img {
-        border-radius: 50%;
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
     }
+
 
     .world {
         // position: absolute;
         border-radius: 60%;
         margin-top: 10%;
+
         // left: 768px;
         // top: 220px;
-
+        @media @mobile {
+            width: 100%;
+            margin-top: 0%;
+        }
     }
 }
 
@@ -21,10 +28,19 @@
 .body-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 2%;
-    margin-top: 5%;
+    width: 35%;
+    padding-right: 10%;
     align-items: center;
+    margin-top: 8%;
+
+    @media @mobile {
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
 
 
 
@@ -65,6 +81,10 @@
         text-align: center;
         color: #000000;
         margin: 5%;
+
+        @media @mobile {
+            display: none;
+        }
     }
 
     .rectangle {
@@ -74,6 +94,10 @@
         border-radius: 5px;
         width: 50%;
         padding: 1.5%;
+
+        @media @mobile {
+            margin-top: 10%;
+        }
 
         .sign-up {
 
@@ -120,3 +144,62 @@
 
 //closes log-in
 //closes body
+
+// contact us 
+h1 {
+    text-align: center;
+    margin: auto;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 26px;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 5%;
+    color: @signup-btn-bg-color;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+
+    .center {
+        display: flex;
+        text-align: center;
+
+
+        form {
+            margin: auto;
+        }
+
+    }
+
+    .none {
+        display: none;
+    }
+
+    .rectangle {
+
+        /* Primary/Trinidad */
+        background: #D74E09;
+        border-radius: 5px;
+        width: 20%;
+        padding: 1.5%;
+        margin-top: 10%;
+
+
+        .sign-up {
+
+            /* Source Sans Pro/Regular/21px */
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 26px;
+            text-align: center;
+            /* Text Colors/White */
+            color: #FFFFFF;
+        }
+    }
+}
