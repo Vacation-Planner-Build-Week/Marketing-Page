@@ -1,3 +1,21 @@
+html,
+body {
+  font-family: Source Sans Pro;
+  color: #242424;
+}
+h1 {
+  font-size: 7.2rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+h3,
+a {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.4rem;
+}
 .header {
   display: flex;
   justify-content: space-around;
@@ -248,4 +266,107 @@ body .rectangle .sign-up {
   text-align: center;
   /* Text Colors/White */
   color: #FFFFFF;
+}
+.member-section {
+  background-color: #D74E09;
+  border: 1px solid black;
+}
+.about-planner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #46B1C9;
+}
+.meet-the-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.team-lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+.backend-dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+.react2-dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+  color: white;
+}
+.react2devs {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+.frontend-dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+  color: white;
+}
+.react1devs {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+.marketing-frontend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+  color: white;
+}
+.webui-devs {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+.ux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+.teamleadtitle,
+.backendtitle,
+.uxtitle {
+  padding-bottom: 10%;
+  color: white;
+}
+.secondname {
+  color: grey;
 }
